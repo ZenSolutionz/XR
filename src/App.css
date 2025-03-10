@@ -1,0 +1,34 @@
+/* App.css */
+.ar-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.xr-page {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+.xr-overlay {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 1;
+  color: white;
+}
+/* .context-loss-warning {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(255, 0, 0, 0.8);
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  z-index: 10000;
+} */
